@@ -15,3 +15,5 @@ fi
 if [[ -s "${ZDOTDIR:-$HOME}/.aliases" ]]; then
   source "${ZDOTDIR:-$HOME}/.aliases"
 fi
+
+prompt paradox
